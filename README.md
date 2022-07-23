@@ -1,3 +1,3 @@
 # Algorithms
 
-> - Feel free to contribute if you want to.
+> Feel free to contribute if you want to:D.

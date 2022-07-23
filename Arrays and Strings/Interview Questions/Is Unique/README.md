@@ -81,8 +81,6 @@ if (1 & (2)) ✖
 0000
 1 |= 1 = 1
 
----
-
 third iteration
 
 cur = 'a' - 'a' = 0;
@@ -101,6 +99,7 @@ return false
 > - The time complexity: O(**n**).
 > - In this Solution we reduce space usage by a factor of eight by using a bit vector.
 > - assume that the string only uses the lowercase letters from 'a' to 'z'.
+---
 
 > #### third Solution:
 

@@ -3,3 +3,4 @@
  ###### Interview Questions
  
  - **1.1** Is Unique.
+ - **1.2** Check Permutation.

@@ -39,4 +39,9 @@ bool isPermutationSecond(string a, string b)
 
 int main()
 {
+  string s, t;
+  cin >> s >> t;
+  cout << (isPermutationFirst(s, t) == 1 ? "hi,We are the same string. isPermutationFirst() Fn.\n" : "hi,We are not the same string. isPermutationFirst() Fn.\n");
+  cout << (isPermutationSecond(s, t) == 1 ? "hi,We are the same string. isPermutationSecond() Fn.\n" : "hi,We are not the same string. isPermutationSecond() Fn.\n");
+  return 0;
 }

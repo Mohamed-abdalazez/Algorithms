@@ -10,14 +10,17 @@ perform this operation in place.).
 > #### First Solution (My Solution):
 
 ```c++
+
 string replaceSpacesFirst(string str, int trueLength)
 {
   string ans = "", temp = "";
-  for (int i = 0; i < str[i]; i++)
+  bool fAllSpace = false;
+  for (int i = 0; i < str.size(); i++)
   {
     if (str[i] == ' ')
     {
       temp += "%20";
+      fAllSpace = true;
     }
     else
     {
@@ -28,15 +31,14 @@ string replaceSpacesFirst(string str, int trueLength)
       }
       ans += str[i];
     }
+    fAllSpace = false;
   }
-  ans += temp;
+  if (fAllSpace)
+    ans += temp;
   return ans;
 }
 
 ```
-
-> - `ans += temp;` Because if there is no space in the string or temp still has a value after the loop.
-
 ---
 
 > #### Second Solution:

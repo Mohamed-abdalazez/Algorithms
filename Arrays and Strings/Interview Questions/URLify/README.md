@@ -41,7 +41,7 @@ string replaceSpacesFirst(string str, int trueLength)
 ```
 ---
 
-> #### Second Solution:
+> #### Second Solution by (Gayle Laakmann McDowell Solution):
 
 ```c++
 

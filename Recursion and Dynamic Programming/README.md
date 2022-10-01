@@ -123,7 +123,7 @@ FibonacciBU(idx)
 
 #### Note
 
--If you really think about how this works, you only use memo[i] for memo[i+1] and memo[i+2]. You don't need it after that. Therefore, we can get rid of the memo table and just store a few variables.
+- If you really think about how this works, you only use memo[i] for memo[i+1] and memo[i+2]. You don't need it after that. Therefore, we can get rid of the memo table and just store a few variables.
 
 ```c++
 #include <iostream>

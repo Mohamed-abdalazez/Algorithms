@@ -59,4 +59,4 @@ possible ways:
 2. 3 - (2 + 1).
 4. 3 - (3).
 
-![Tree.png](attachment:Tree.png)
+<img align="left" alt="Tree | mo" src="assets/Tree.png" />

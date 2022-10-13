@@ -1,6 +1,7 @@
 ### Chapter 8| Recursion and Dynamic Programming.
 #### cracking the coding interview book - Interview Questions - Triple Step. 
 
+
 Problem statement:
 
 8.1 Triple Step: A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3
@@ -59,7 +60,7 @@ possible ways:
 2. 3 - (2 + 1).
 4. 3 - (3).
 
-<img align="left" alt="Tree | mo" src="assets/Tree.png" />
+![Tree.png](attachment:Tree.png)
 
 - Memoization Solution:
 
@@ -117,3 +118,5 @@ solvememo(n)
 
 
     81
+
+

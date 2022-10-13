@@ -60,12 +60,14 @@ possible ways:
 2. 3 - (2 + 1).
 4. 3 - (3).
 
-<img align="left" alt="Tree | mo" src="assets/Tree.png" />
+<img align="center" alt="Tree | mo" src="assets/Tree.png" />
 
+
+  
 - Memoization Solution:
 
-     - if we have seen value of n before, return the cached value.
-     - else compute a fresh value.
+   - if we have seen value of n before, return the cached value.
+  - else compute a fresh value.
 
 
 ```c++

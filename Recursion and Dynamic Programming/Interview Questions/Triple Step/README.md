@@ -60,3 +60,60 @@ possible ways:
 4. 3 - (3).
 
 <img align="left" alt="Tree | mo" src="assets/Tree.png" />
+
+- Memoization Solution:
+
+     - if we have seen value of n before, return the cached value.
+     - else compute a fresh value.
+
+
+```c++
+#include "bits/stdc++.h"
+
+using namespace std;
+```
+
+
+```c++
+map<int, int> vis;
+```
+
+
+```c++
+int solvememo(int n)
+{
+
+  if (n < 0)
+    return 0;
+  else if (n == 0)
+    return 1;
+  else if (vis[n])
+  {
+    return vis[n];
+  }
+  else
+  {
+    vis[n] = solvememo(n - 1) + solvememo(n - 2) + solvememo(n - 3);
+    return vis[n];
+  }
+}
+```
+
+
+```c++
+int n;
+cin >> n;
+```
+
+    8
+
+
+
+```c++
+solvememo(n)
+```
+
+
+
+
+    81

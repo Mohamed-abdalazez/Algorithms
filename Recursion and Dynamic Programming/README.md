@@ -39,18 +39,6 @@ int Fibonacci(int idx){
 }
 
 ```
-
-```c++
-int idx;
-cin >> idx;
-```
-
-```c++
-Fibonacci(idx)
-```
-
-    21
-
 #### We Should look for way to optimize this O(2^n) solution using Top-down dynamic Programming or Memoization
 
 ```c++
@@ -73,19 +61,6 @@ const int MAX = 1000;
 int memo[MAX];
 ```
 
-```c++
-int idx;
-cin >> idx;
-```
-
-    9
-
-```c++
-Fibonaccimemo(idx, memo)
-```
-
-    34
-
 #### we can also use Bottom-Up dynamic Programming
 
     - First, we compute fib(1) and fib( 0), which are already known from the base cases. Then we use those to compute fib(2). Then we use the prior answers to compute fib(3), then fib(4), and so on.
@@ -107,19 +82,6 @@ int FibonacciBU(int n){
     return memo[n - 1] + memo[n - 2];
 }
 ```
-
-```c++
-int idx;
-cin >> idx;
-```
-
-    9
-
-```c++
-FibonacciBU(idx)
-```
-
-    34
 
 #### Note
 
@@ -144,16 +106,3 @@ int FibonacciBUI(int n){
     return a + b;
 }
 ```
-
-```c++
-int idx;
-cin >> idx;
-```
-
-    9
-
-```c++
- FibonacciBUI(idx)
-```
-
-    35
